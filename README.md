@@ -3,7 +3,7 @@ This project explores machine learning algorithms and data analysis to forecast 
 
 ## Introduction
 
-This project aims to explore the historical sales dataset of a supermarket company and develop a predictive model capable of forecasting each branch's total sales. The [dataset](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales/download?datasetVersionNumber=3) contains three months of recorded data from three distinct branches (A, B, and C) and includes various features such as customer type, product line, payment method, and gross income.
+This project aims to explore the historical sales dataset from the Kaggle dataset named "Supermarket Sales," which offers a historical record of sales across three branches. This dataset will be used to develop a predictive model capable of forecasting each branch's total sales. The [dataset](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales/download?datasetVersionNumber=3) contains three months of recorded data from three distinct branches (A, B, and C). With 1000 rows and 17 columns, it covers attributes like date, time, branch, customer type, product line, quantity, unit price, tax, total, payment, and rating. The dataset is available in CSV and Excel formats and can be obtained via the provided link. 
 
 ## Features Information
 
@@ -29,7 +29,8 @@ The dataset includes the following features:
 
 ## Tools
 - Excel - Utilized for initial data investigation to gain a comprehensive overview of the dataset.
-- Jupyterlab (Python) - Employed for exploration, data cleaning, visualization, model development, and evaluation.
+- Jupyterlab (Python) -  Python serves as the primary programming language for data analysis and machine learning. JupyterLab offers an interactive development environment for creating and sharing documents integrating live code, equations, visualizations, and text.
+- Python Libraries - Pandas and numpy furnish essential data structures and operations for numerical and tabular data manipulation. Matplotlib provides data visualization capabilities, crafting diverse plots and charts. sklearn, meanwhile, assists in data modeling.
 - Chatgpt - Leveraged for clarifying concepts, generating explanations, and gaining additional insights into the data.
   
 ## Data Preprocessing
@@ -76,3 +77,8 @@ To ensure sustained accuracy, stakeholders are recommended to commit to continuo
 ## Limitations and Future Work
 
 While the selected model performs admirably, certain considerations warrant attention. The Neural Network (Model 2) introduces computational intensity, potentially posing challenges in resource-constrained environments. To mitigate this, future efforts should focus on exploring computational optimization strategies to streamline Neural Network computations. Furthermore, acknowledging the models' assumption that the future mirrors the past, there is scope for improvement in adapting to unforeseen shifts. Dynamic model updating mechanisms should be investigated to ensure adaptability to evolving sales patterns. On the data front, regular quality checks are imperative to uphold model effectiveness, and proactive measures to mitigate biases in data collection are essential for ensuring fair and unbiased predictions.
+
+## Challenges and Limitations
+
+Navigating challenges and limitations in the project primarily involves tackling data quality issues, exploring the dataset, and selecting suitable models. Notable hurdles include handling missing values and outliers effectively, encoding categorical variables for numerical analysis, addressing imbalanced classes potentially affecting model performance, resolving multicollinearity issues, and dealing with non-linear relationships demanding complex models or feature engineering.
+To mitigate these obstacles, several strategies are proposed, including employing data cleaning and preprocessing techniques like handling missing values, outliers, and encoding categorical variables, conducting data exploration and visualization such as correlation analysis, employing feature selection methods, and experimenting with diverse machine learning models and algorithms, including linear regression, logistic regression, decision trees, and random forests.
