@@ -76,7 +76,13 @@ The following evaluation metrics were used to assess the performance of the pred
 * R-squared (R²)
 
 A scatter plot visualization was used to illustrate the alignment between actual and predicted values, providing a nuanced interpretation of the models' effectiveness.
+
 ![Random forest regression actual vs  predicted](https://github.com/Ade-Ogunbiyi/Supermarket-Sales-Predictive-Analysis/assets/159503652/d2723858-0d67-4f3c-9dd1-4ebab085177a)
+
+![Neural Network actual vs  predicted](https://github.com/Ade-Ogunbiyi/Supermarket-Sales-Predictive-Analysis/assets/159503652/b45ecbb3-005f-4ddc-9702-f5bdf8fec47b)
+
+![Linear regression actual vs  predicted](https://github.com/Ade-Ogunbiyi/Supermarket-Sales-Predictive-Analysis/assets/159503652/c58ea867-fc4f-43d5-bdea-c0cb49e0147e)
+
 
 ## Results and Interpretation
 
