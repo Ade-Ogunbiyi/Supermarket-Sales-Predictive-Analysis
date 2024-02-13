@@ -3,7 +3,7 @@ This project explores machine learning algorithms and data analysis to forecast 
 
 ## Table of Contents
 
--[Introduction](introduction)
+- [Introduction](#introduction)
 
 
 ## Introduction
