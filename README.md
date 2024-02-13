@@ -4,6 +4,16 @@ This project explores machine learning algorithms and data analysis to forecast 
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Features Information](#features-information)
+- [Tools](#tools)
+- [Data Preprocessing](#data-preprocessing)
+- [Predictive Modeling Techniques](#predictive-modeling-techniques)
+- [Model Evaluation](#model-evaluation)
+- [Results and Interpretation](#results-and-interpretation)
+- [Conclusion](#conclusion)
+- [Recommendations](#recommendations)
+- [Limitations and Future Work](#limitations-and-future-work)
+- [Challenges and Limitations](#challenges-and-limitations)
 
 
 ## Introduction
@@ -66,6 +76,7 @@ The following evaluation metrics were used to assess the performance of the pred
 * R-squared (R²)
 
 A scatter plot visualization was used to illustrate the alignment between actual and predicted values, providing a nuanced interpretation of the models' effectiveness.
+![Random forest regression actual vs  predicted](https://github.com/Ade-Ogunbiyi/Supermarket-Sales-Predictive-Analysis/assets/159503652/d2723858-0d67-4f3c-9dd1-4ebab085177a)
 
 ## Results and Interpretation
 
