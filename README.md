@@ -67,6 +67,15 @@ Three different predictive models were developed to forecast the total sales of 
 2. Neural Network Regressor (Model 2)
 3. Linear Regressor (Model 3)
 
+' ' '
+      
+      models = {
+      "RandomForestRegressor": RandomForestRegressor(n_estimators=100, random_state=42),
+      "MLPRegressor": MLPRegressor(random_state=42, max_iter=500), # just in case, i will increase the max_iter to 500 to handle any convergence warning
+      "LinearRegression": LinearRegression()
+      }
+' ' '
+
 ## Model Evaluation
 
 The following evaluation metrics were used to assess the performance of the predictive models:
@@ -74,6 +83,19 @@ The following evaluation metrics were used to assess the performance of the pred
 * Mean Absolute Error (MAE)
 * Mean Squared Error (MSE)
 * R-squared (R²)
+
+
+ ' ' '
+      
+      mae = mean_absolute_error(y_test, predictions)
+      mse = mean_squared_error(y_test, predictions)
+      r2 = r2_score(y_test, predictions)
+  
+      print(f'{model_name} Evaluation:')
+      print(f'Mean Absolute Error (MAE): {mae}')
+      print(f'Mean Squared Error (MSE): {mse}')
+      print(f'R-squared (R2): {r2}')
+  ' ' '
 
 A scatter plot visualization was used to illustrate the alignment between actual and predicted values, providing a nuanced interpretation of the models' effectiveness.
 
