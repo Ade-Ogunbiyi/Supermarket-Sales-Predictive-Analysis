@@ -168,7 +168,32 @@ This is the result of the model evaluation
       
  ' ' '
  
+The result of the metric above helps to explain the performance of the models:
 
+1. RandomForestRegressor:
+   - MAE: 0.7944
+   - MSE: 3.3237
+   - R2: 0.9999
+   
+   The RandomForestRegressor model has very low MAE and MSE values, indicating its predictions are close to the actual values. An R-squared value of 0.9999 suggests it explains almost all the variability in the target variable, indicating a strong fit to the data.
+
+2. MLPRegressor:
+   - MAE: 22.8930
+   - MSE: 753.0081
+   - R2: 0.9883
+   
+   MLPRegressor shows higher MAE and MSE compared to RandomForestRegressor, indicating larger prediction errors. However, an R-squared value of 0.9883 still suggests it explains a significant portion of the target variable's variability.
+
+3. LinearRegression:
+   - MAE: ~0
+   - MSE: ~0
+   - R2: 1.0
+   
+   Linear regression has extremely low MAE and MSE, nearly zero, indicating predictions closely match actual values. An R-squared value of 1.0 implies a perfect fit to the data, explaining all variability in the target variable.
+
+Overall, all models perform well, with LinearRegression standing out for its perfect fit, as indicated by an R-squared value of 1.0.
+ 
+### Visualizing Models
 A scatter plot visualization was used to illustrate the alignment between actual and predicted values, providing a nuanced interpretation of the models' effectiveness.
 
 ![Random forest regression actual vs  predicted](https://github.com/Ade-Ogunbiyi/Supermarket-Sales-Predictive-Analysis/assets/159503652/d2723858-0d67-4f3c-9dd1-4ebab085177a)
