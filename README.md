@@ -20,6 +20,10 @@ This project explores machine learning algorithms and data analysis to forecast 
 
 This project aims to explore the historical sales dataset from the Kaggle dataset named "Supermarket Sales," which offers a historical record of sales across three branches. This dataset will be used to develop a predictive model capable of forecasting each branch's total sales. The [dataset](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales/download?datasetVersionNumber=3) contains three months of recorded data from three distinct branches (A, B, and C). With 1000 rows and 17 columns, it covers attributes like date, time, branch, customer type, product line, quantity, unit price, tax, total, payment, and rating. The dataset is available in CSV and Excel formats and can be obtained via the provided link. 
 
+## Data Source
+
+The data for this project is sourced from Kaggle, a renowned platform hosting data science and machine learning competitions. This dataset encompasses sales transaction details from a supermarket's three branches over three months. Collected via the supermarket's point of sale system, it comprises variables like date, time, customer type, product line, unit price, quantity, tax, total, payment method, branch, and city.
+
 ## Features Information
 
 The dataset includes the following features:
