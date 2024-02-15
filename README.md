@@ -4,6 +4,7 @@ This project explores machine learning algorithms and data analysis to forecast 
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Data Source](#data-source)
 - [Features Information](#features-information)
 - [Tools](#tools)
 - [Data Preprocessing](#data-preprocessing)
@@ -69,12 +70,10 @@ To prepare the dataset for analysis, the following preprocessing steps were take
     #Display information about the dataset such as data type and missing values
     sales_data.info()
 
-    #Display summary statistics
-    sales_data.describe()
-
+  
  ' ' '
  
-This will output something like this:
+This is the output:
 
 ' ' '
 
@@ -103,6 +102,8 @@ This will output something like this:
       dtypes: float64(7), int64(1), object(9)
       memory usage: 132.9+ KB 
 ' ' '
+
+
 This output reveals the dataset comprises 1000 rows and 17 columns, with no missing values detected. However, certain columns hold object data types, indicating they represent categorical variables.
 
 ## Predictive Modeling Techniques
