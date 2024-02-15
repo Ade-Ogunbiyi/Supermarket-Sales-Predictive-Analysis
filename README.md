@@ -143,6 +143,31 @@ The following evaluation metrics were used to assess the performance of the pred
       print(f'Mean Squared Error (MSE): {mse}')
       print(f'R-squared (R2): {r2}')
   ' ' '
+  
+This is the result of the model evaluation
+
+' ' '
+
+      RandomForestRegressor Evaluation:
+      Mean Absolute Error (MAE): 0.7944168090452193
+      Mean Squared Error (MSE): 3.3236542063460033
+      R-squared (R2): 0.9999484283103733
+
+
+      MLPRegressor Evaluation:
+      Mean Absolute Error (MAE): 22.89302709215442
+      Mean Squared Error (MSE): 753.008068680598
+      R-squared (R2): 0.9883159029208719
+
+
+      LinearRegression Evaluation:
+      Mean Absolute Error (MAE): 6.909938841104191e-14
+      Mean Squared Error (MSE): 7.628705150753281e-27
+      R-squared (R2): 1.0
+
+      
+ ' ' '
+ 
 
 A scatter plot visualization was used to illustrate the alignment between actual and predicted values, providing a nuanced interpretation of the models' effectiveness.
 
