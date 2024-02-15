@@ -63,6 +63,48 @@ To prepare the dataset for analysis, the following preprocessing steps were take
 * Standardization of selected features to a common scale
 * Encoding of categorical variables using one-hot encoding
 
+  
+' ' '
+
+    #Display information about the dataset such as data type and missing values
+    sales_data.info()
+
+    #Display summary statistics
+    sales_data.describe()
+
+ ' ' '
+ 
+This will output something like this:
+
+' ' '
+
+      <class 'pandas.core.frame.DataFrame'>
+      RangeIndex: 1000 entries, 0 to 999
+      Data columns (total 17 columns):
+      #   Column          Non-Null Count  Dtype  
+      ---  ------          --------------  -----  
+      0   Invoice ID      1000 non-null   object 
+      1   Branch          1000 non-null   object 
+      2   City            1000 non-null   object 
+      3   Customer type   1000 non-null   object 
+      4   Gender          1000 non-null   object 
+      5   Product line    1000 non-null   object 
+      6   Unit price      1000 non-null   float64
+      7   Quantity        1000 non-null   int64  
+      8   Tax 5%          1000 non-null   float64
+      9   Total           1000 non-null   float64
+      10  Date            1000 non-null   object 
+      11  Time            1000 non-null   object 
+      12  Payment         1000 non-null   object 
+      13  cogs            1000 non-null   float64
+      14  gross margin percentage  1000 non-null   float64
+      15  gross income    1000 non-null   float64
+      16  Rating          1000 non-null   float64
+      dtypes: float64(7), int64(1), object(9)
+      memory usage: 132.9+ KB 
+' ' '
+This output reveals the dataset comprises 1000 rows and 17 columns, with no missing values detected. However, certain columns hold object data types, indicating they represent categorical variables.
+
 ## Predictive Modeling Techniques
 
 Three different predictive models were developed to forecast the total sales of each branch:
